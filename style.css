@@ -30,12 +30,10 @@ body {
 /* sekce zbozi */
 
 .zbozi {
-    width: 670px;
-    height: 440px;
     font-family: 'Rubik', sans-serif;
     display: flex;
     justify-content: center;
-    margin: 100px;
+    margin: 100px 0 0;
 }
     
 
@@ -46,8 +44,10 @@ body {
     padding: 30px;
     border-radius: 5% 0 0 5%;    
     color: white;
-    min-width: 335px;
+    max-width: 335px;
     max-height: 440px;
+    box-shadow: 2px 3px 10px;
+
 
 }
 
@@ -87,8 +87,9 @@ top: 10px;
     background-color: white;
     padding: 30px;
     border-radius: 0 5% 5% 0;
-    min-width: 335px;
+    max-width: 335px;
     max-height: 440px;
+    
 }
 
 .nazev {
@@ -106,4 +107,45 @@ color: #959595;
 .popis {
     font-size: 16px;
     font-weight: 400;
+    border-bottom: solid 1px #06d7c1;
+    padding: 10px 0 30px;
+}
+
+.velikosti {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.velikosti li {
+    flex: 1 0 5px;
+    list-style: none;  
+  
+}
+
+.velikosti li:hover,
+.velikosti li:focus
+.velikosti li:active {
+    border: solid 1px #f15f42;
+    border-radius: 50px;
+    color: #f15f42;
+    text-align: center;
+    flex: 1 0 5px;
+}
+
+.akce {
+    width: 150px;
+    padding: 10px;
+    background-color:#f15f42;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.tlacitko {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
 }
