@@ -33,7 +33,11 @@ body {
     font-family: 'Rubik', sans-serif;
     display: flex;
     justify-content: center;
-    margin: 100px 0 0;
+    margin: 100px auto 0;
+    box-shadow: 1px 0 30px #959595;
+    max-width: 670px;
+    border-radius: 5%;
+
 }
     
 
@@ -46,7 +50,6 @@ body {
     color: white;
     max-width: 335px;
     max-height: 440px;
-    box-shadow: 2px 3px 10px;
 
 
 }
